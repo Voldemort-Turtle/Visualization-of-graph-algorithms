@@ -33,9 +33,37 @@ After running:
 - Console will print traversal results
 - GUI window will open displaying the BST
 
+# Traversal Methods
+1. WypiszBFS() --- Level-Order Traversal
+2. DFS() --- Recursive DFS
+3. WypiszDFSIterative() --- Iterative DFS
+4. WypiszInOrder() --- Sorted Output
+5. WypiszPreOrder() --- Root-First
+6. WypiszPostOrder() --- Root-Last
 # Examples:
 Post-Order Traversal : 1 4 7 6 5 12 32 21 15 10
 - Console.WriteLine(drzewo.CzyZawiera(5));   // True
 - Console.WriteLine(drzewo.CzyZawiera(20));  // False
 - Output: True
          False
+Tree
+drzewo.Dodaj(10);
+drzewo.Dodaj(5);
+drzewo.Dodaj(6);
+drzewo.Dodaj(7);
+drzewo.Dodaj(4);
+drzewo.Dodaj(15);
+drzewo.Dodaj(1);
+drzewo.Dodaj(21);
+drzewo.Dodaj(32);
+drzewo.Dodaj(12);
+- This produces the BST:
+           10
+         /    \
+        5      15
+       / \    /  \
+      4   6  12  21
+     /     \       \
+    1       7       32
+drzewo.WypiszBFS();
+- output: 10 5 15 4 6 12 21 1 7 32
