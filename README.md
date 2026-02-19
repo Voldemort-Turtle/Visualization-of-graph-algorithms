@@ -81,3 +81,15 @@ drzewo.Dodaj(12);
   
 drzewo.WypiszBFS();
 - output: 10 5 15 4 6 12 21 1 7 32
+
+drzewo.DFS();
+- output: 10 5 4 1 6 7 15 12 21 32
+
+drzewo.WypiszInOrder();
+- output: 1 4 5 6 7 10 12 15 21 32
+
+drzewo.WypiszPreOrder();
+- output: 10 5 4 1 6 7 15 12 21 32
+
+drzewo.WypiszPostOrder();
+- output: 1 4 7 6 5 12 32 21 15 10
