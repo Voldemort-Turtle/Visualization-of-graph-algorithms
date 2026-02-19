@@ -46,7 +46,9 @@ Post-Order Traversal : 1 4 7 6 5 12 32 21 15 10
 - Console.WriteLine(drzewo.CzyZawiera(20));  // False
 - Output: True
          False
-- Tree
+
+Tree
+
 drzewo.Dodaj(10);
 
 drzewo.Dodaj(5);
