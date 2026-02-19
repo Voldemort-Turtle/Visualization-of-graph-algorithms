@@ -46,17 +46,27 @@ Post-Order Traversal : 1 4 7 6 5 12 32 21 15 10
 - Console.WriteLine(drzewo.CzyZawiera(20));  // False
 - Output: True
          False
-Tree
+- Tree
 drzewo.Dodaj(10);
+
 drzewo.Dodaj(5);
+
 drzewo.Dodaj(6);
+
 drzewo.Dodaj(7);
+
 drzewo.Dodaj(4);
+
 drzewo.Dodaj(15);
+
 drzewo.Dodaj(1);
+
 drzewo.Dodaj(21);
+
 drzewo.Dodaj(32);
+
 drzewo.Dodaj(12);
+
 - This produces the BST:
            10
          /    \
