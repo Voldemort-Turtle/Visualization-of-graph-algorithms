@@ -71,11 +71,8 @@ drzewo.Dodaj(12);
 
 - This produces the BST:
            10
-         /    \
         5      15
-       / \    /  \
       4   6  12  21
-     /     \       \
-    1       7       32
+   1       7       32
 drzewo.WypiszBFS();
 - output: 10 5 15 4 6 12 21 1 7 32
