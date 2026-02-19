@@ -35,7 +35,7 @@ After running:
 
 # Examples:
 Post-Order Traversal : 1 4 7 6 5 12 32 21 15 10
- Console.WriteLine(drzewo.CzyZawiera(5));   // True
- Console.WriteLine(drzewo.CzyZawiera(20));  // False
- Output: True
+- Console.WriteLine(drzewo.CzyZawiera(5));   // True
+- Console.WriteLine(drzewo.CzyZawiera(20));  // False
+- Output: True
          False
